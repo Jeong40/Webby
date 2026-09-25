@@ -1,5 +1,5 @@
 # Webby
-## Simple Interactive Customizable
+## Simple·Interactive·Customizable
 
 A personal website doesn't have to be just a collection of text and images.
 
@@ -20,20 +20,16 @@ You can drag it to any where you want and it may come back to the original posit
 You can add the following code to edited the character.
 
 ```HTML
-window.WebbyConfig = {
-  //The customized data you want to add
-}
-```
-What you can edit here:
-Character:
-```javascript
-characterX //the distance between the left edge of the screen and the character
-characterY //the distance between the bottom of the screen and the character
-characterWidth //The width of your character
-characterURL //The sptitesheet of your character
-```
+<script>
+  window.WebbyConfig = {
+    //What you can add here (the following are the default data)
+    characterX: 10,
+    characterY: 150,
+    characterWidth: 200,
+    characterURL: 'https://s1.imagehub.cc/images/2026/09/25/c7ba7d48838fde81e9bd0712e75d404e.png',
 
-chat box:
-```javascript
-chatboxWidth //the width of the chat box
+    chatboxWidth: 200,
+    chatboxBorderRadius: 20
+  }
+</script>
 ```
