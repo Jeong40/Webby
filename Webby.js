@@ -33,7 +33,7 @@
   const config = Object.assign(
     {},
     defaultConfig,
-    window.myConfig
+    window.WebbyConfig
   );
 
   let originalX = config.characterX;
