@@ -17,3 +17,23 @@ Only a line of code is needed to add it to your website.
 You can drag it to any where you want and it may come back to the original position itself. You can actually use it to release stress!
 
 ## customizable
+You can add the following code to edited the character.
+
+```HTML
+window.WebbyConfig = {
+  //The customized data you want to add
+}
+```
+What you can edit here:
+Character:
+```javascript
+characterX //the distance between the left edge of the screen and the character
+characterY //the distance between the bottom of the screen and the character
+characterWidth //The width of your character
+characterURL //The sptitesheet of your character
+```
+
+chat box:
+```javascript
+chatboxWidth //the width of the chat box
+```
