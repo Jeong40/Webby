@@ -10,5 +10,5 @@ It can have a little personality of its own.
 Only a line of code is needed to add it to your website.
 
 ```HTML
-<script src=""></script>
+<script src="https://raw.githubusercontent.com/Jeong40/Webby/refs/heads/main/Webby.js"></script>
 ```
