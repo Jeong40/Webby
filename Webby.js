@@ -17,7 +17,7 @@
     chatboxWidth: 200,
     chatboxBorderRadius: 20,
     chatboxFontColor: 'black',
-    chatboxTextShadowColor: 'white'
+    chatboxTextShadowColor: 'white',
 
     speakInterval: 5000,
 
@@ -78,7 +78,7 @@
       opacity: 0.0;
       text-align: center;
       color: ${config.chatboxFontColor};
-      text-shadow: 0 0 5px ${config.chatboxTextShadowColor};
+      text-shadow: 1px 1px 0 ${config.chatboxTextShadowColor};
       position: absolute;
       bottom: ${config.characterWidth}px;
       border-radius: ${config.chatboxBorderRadius}px;
