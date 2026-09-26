@@ -75,8 +75,8 @@
         2px 2px 4px rgba(0, 0, 0, 0.3);
       opacity: 0.0;
       text-align: center;
-      color: white;
-      text-shadow: 0 0 5px black;
+      color: black;
+      text-shadow: 0 0 5px white;
       position: absolute;
       bottom: ${config.characterWidth}px;
       border-radius: ${config.chatboxBorderRadius}px;
