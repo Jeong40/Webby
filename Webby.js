@@ -134,7 +134,7 @@
     fadeOut();
     clearInterval(animationI);
     clearTimeout(animationT);
-    character.style.backgroundPosition = `-${3 * config.characterWidth}px`;
+    character.style.backgroundPosition = `-${3 * config.characterWidth}px 0`;
     isMoving = false;
     container.style.transition = '0.15s';
     spring();
@@ -163,7 +163,7 @@
   }
 
   function playAnimation() {
-    character.style.backgroundPosition = `-${config.characterWidth}px, 0`;
+    character.style.backgroundPosition = `-${config.characterWidth}px 0`;
     animationT = setTimeout(() => {
       character.style.backgroundPosition = `-${2 * config.characterWidth}px 0`;
     }, 100);
