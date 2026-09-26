@@ -17,7 +17,7 @@ Only a line of code is needed to add it to your website.
 You can drag it to any where you want and it may come back to the original position itself. You can actually use it to release stress!
 
 ## customizable
-You can add the following code to edite the character.
+* You can add the following code to edite the character.
 
 ```HTML
 <script>
@@ -48,3 +48,19 @@ You can add the following code to edite the character.
   }
 </script>
 ```
+
+* How to change the texture of your character
+
+You can draw a picture like this:
+
+![example](https://s1.imagehub.cc/images/2026/09/25/c7ba7d48838fde81e9bd0712e75d404e.png)
+
+* 1st part: the default appearance of your character
+
+* 2nd & 3rd part: a two-frame animation which is played when you drag it.
+
+* 4th part: a dizzy expression used when the character is spinning.
+
+**IMPORTANT:**
+
+Every part of your texture must be a square.
